@@ -7,8 +7,14 @@
 myread2(csv)
 }
 \arguments{
-\item{csv}{}
+\item{csv}{input file}
+}
+\value{
+dataframe
 }
 \description{
 myread2
+}
+\examples{
+myread2("data/fire.rda")
 }

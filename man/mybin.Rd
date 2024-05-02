@@ -7,7 +7,14 @@
 mybin(iter = 100, n = 10, p = 0.5)
 }
 \arguments{
-\item{p}{}
+\item{iter}{what it iterates through}
+
+\item{n}{number}
+
+\item{p}{probability}
+}
+\value{
+barplot
 }
 \description{
 My Bin Function

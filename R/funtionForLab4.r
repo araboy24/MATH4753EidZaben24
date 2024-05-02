@@ -1,3 +1,6 @@
+## put a function in here from lab 3 or 4
+## Then document it
+
 #' myread
 #'
 #' @param csv
