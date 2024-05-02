@@ -1,0 +1,46 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753EidZaben24)
+```
+
+# Introduction
+
+This package was made over the course of the Spring 2024 semester.
+
+It contains several functions used throughout the class as well as a dataset that was provided in the class. 
+
+# 1. mybin Function
+```{r}
+mybin(iter=100,n=10, p=0.5)
+```
+
+# 2.myncurve Function
+
+```{r}
+ myncurve(5, 5, 2)
+```
+
+# 3. myboot2 Function
+```{r}
+myboot2(x=rnorm(25,mean=25,sd=10))
+```
+
+# 4. mymaxlikg Function
+```{r}
+mymaxlikg(theta=seq(0,1,length=10000))
+```
